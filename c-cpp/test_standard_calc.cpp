@@ -1,8 +1,6 @@
 #include "stdio.h"
 #include "cutest/CuTest.h"
 #include "standard_calc.h"
-#include "cutest/CuTest.c" //Due to how my gcc is setup, this is the only way I could get the project to build
-                            //Without complaining about missing dependencies in CuTest. I apologize if this violates the rules
 
 /**************** Tests for bound_to_180() *******************/
 void test_bound_basic1(CuTest *tc) {
